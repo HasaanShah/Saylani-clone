@@ -1,3 +1,17 @@
 .form-control me-2{
     font-size: 20px;
 }
+.navbar-nav > li{
+    margin-left:10px;
+    margin-right:10px;
+
+  }
+h1{
+    font-size: 50px;
+    float: left;
+    margin-left: 40px;
+}
+.color-change-effect{
+    color: rgb(45, 252, 114);
+    display: inline;
+}
