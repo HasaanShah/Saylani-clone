@@ -1,3 +1,12 @@
+.container-fluid{
+    background-color: white;
+}
+
+
+
+
+
+
 .form-control me-2{
     font-size: 20px;
 }
@@ -7,11 +16,57 @@
 
   }
 h1{
-    font-size: 50px;
+    font-size: 40px;
     float: left;
-    margin-left: 40px;
+    margin-left: 45px;
+    font-weight: bold;
 }
 .color-change-effect{
-    color: rgb(45, 252, 114);
+    color: #99CA3C;
     display: inline;
 }
+p{
+    font-size: 17px;
+}
+h3,p{
+    margin-left: 45px;
+}
+h3{
+    font-weight: bold;
+}
+.ech3-highlight{
+    color: #1900ff;
+    display: inline;
+}
+.to-about{
+    margin-left: 45px;
+    display: inline;
+}
+.container {
+    width: 100%;  /* Stretch container to full width */
+    margin: 0 auto;  /* Center container horizontally */
+  }
+  .button-row {
+    display: flex;  /* Arrange buttons horizontally */
+    justify-content: space-around;  /* Distribute buttons evenly */
+    background-color: #F0FCDA;  /* Optional background color */
+    padding: 10px 0;  /* Optional padding */
+  }
+  
+  .button-row button {
+  }
+  
+  .food-button {
+    background-color: #FFCC00;  /* Example color for food button */
+    color: black;  /* Adjust text color */
+  }
+  
+  .khilafat-button {
+    background-color: #007BFF;  /* Example color for khilafat button */
+    color: white;  /* Adjust text color for light background */
+  }
+  
+  .donate-button {
+    background-color: green;  /* Green color for donate button */
+    color: white;  /* White text for green background */
+  }
